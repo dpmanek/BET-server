@@ -1,0 +1,35 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Budget Expense Manager",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Deep Deven Manek 20009220",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpmanek/CS_546_C_Project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dpmanek/CS_546_C_Project/issues"
+  },
+  "homepage": "https://github.com/dpmanek/CS_546_C_Project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.3",
+    "mongodb": "^4.5.0",
+    "nodemailer": "^6.7.5",
+    "pdfkit": "^0.13.0",
+    "servicenow-rest-api": "^1.2.2",
+    "xss": "^1.0.11"
+  }
+}
